@@ -1,0 +1,5 @@
+valor = int (input ("informe um valor: "))
+if valor >= 100 and valor <=200:
+    print ("o numero e verdadeiro.")
+else:
+    print ("o numero e falso")

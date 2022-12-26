@@ -1,0 +1,9 @@
+capital = float (input ("informe o capital de giro: "))
+juros = int (input("informe o juros: "))
+periodo = int (input("informe o periodo: "))
+meses = 1
+
+for i in range (0,periodo):
+    capital = capital + (capital*(juros/100))
+    print (meses,"° Mês R$ {:.2f}".format(capital))
+    meses += 1
